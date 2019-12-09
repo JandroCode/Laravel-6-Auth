@@ -1,0 +1,14 @@
+Autenticación con Laravel 6 y Vue:
+
+Pasos a seguir: ( Si ya está instalado el instalador de Laravel y si ,no ejecutar
+el siguiente comando : composer global require laravel/installer para instalarlo.
+
+laravel new blog
+composer require laravel/ui
+php artisan ui vue --auth
+npm i
+npm run dev
+php artisan serve
+
+Otro comando necesario para que se puedan traducir los archivos .vue a .js y los entienda el navegador:
+npm run watch
